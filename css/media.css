@@ -1,0 +1,22 @@
+@font-face {
+    font-family: "Proxima Nova";
+    src: url(../fonts/Proxima_Nova_light.otf);
+    font-weight: lighter;   
+    font-style: normal; 
+} 
+
+@font-face {
+    font-family: "Proxima Nova";
+    src: url(../fonts/Proxima_Nova_bold.otf);
+    font-weight: bold;  
+    font-style: normal;  
+} 
+
+
+@font-face {
+    font-family: "Proxima Nova";
+    src: url(../fonts/Proxima_Nova_extra_bold.otf);
+    font-weight: 900;
+    font-style: normal;  
+} 
+
