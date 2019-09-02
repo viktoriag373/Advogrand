@@ -1,6 +1,7 @@
 * {
     padding: 0;
-    margin: 0;    
+    margin: 0;   
+    transition: 0.2s; 
 }
 
 body {
@@ -37,7 +38,8 @@ header {
 
 }
 
-.header_top_menu li {
+.header_top_menu li,
+.comments_menu li {
     list-style-type: none;
     
 }
@@ -61,17 +63,23 @@ a.tel{
 .about_us_wrap,
 .provide_services_wrap,
 .advantages_wrap,
-.advantages_comparing {
+.advantages_comparing,
+.consultation_wrap {
     display: flex;
     justify-content: space-between;
 }
 
 
+a.button,
+.comments_menu a {
+    text-decoration: none;    
+}
+
 a.button {
     color: #fff;
     font-weight: bold;
     border: none;
-    text-decoration: none; 
+ 
 }
 
 .header_top_menu_call_me {
@@ -147,7 +155,9 @@ h1 span {
 #service,
 #about_us,
 #provide_services,
-#advantages {
+#advantages,
+#consultation,
+#comments {
     padding: 100px 0;
 
 }
@@ -207,9 +217,10 @@ h1 span {
     margin-bottom: 20px;
 }
 
-#provide_services {
-    background: #f5f5f5;
-    text-align: center;
+#provide_services,
+#comments {
+    background: #f5f5f5;     
+    text-align: center;   
 }
 
 .provide_services_wrap img {
@@ -221,13 +232,7 @@ h1 span {
     margin-top: 15px;
 }
 
-.our_clients_wrap p {
-    display: inline;
-}
 
-.our_clients_wrap p span{
-    font-weight: bold;
-}
 
 .advantages_features,
 .advantages_advogrand,
@@ -258,3 +263,144 @@ h1 span {
     box-shadow: 0 12px 12px 3px #d4f1d8;
     color: #fff;
 }
+
+.advantages_advogrand,
+.advantages_other_company {
+    text-align: center;
+}
+
+.advantages_other_company {
+    border: 1px solid #e8e8e8;
+    width: 210px;
+}
+
+.our_clients h3 {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.our_clients_wrap div {
+    margin-bottom: 20px;
+}
+
+.our_clients_wrap div:nth-child(4) {
+    margin-bottom: 40px;
+}
+
+.our_clients_wrap p {
+    display: inline;
+    vertical-align: super;
+    margin-left: 20px;
+}
+
+.our_clients_wrap p span{
+    font-weight: bold;
+}
+
+.our_clients_wrap a {
+    background: #cf1d1d;
+    padding: 25px 80px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+#consultation{
+    background: url(../img/bg_consultation.jpg) no-repeat top center;
+    color: #fff;
+    font-family: 'Muller';
+    font-weight: lighter;
+}
+
+#consultation p {
+    display: inline;
+}
+
+.consultation_heading {  
+    width: 460px;
+    margin-bottom: 75px;
+
+}
+
+.consultation_heading h2 {
+    font-size: 30px;
+}
+
+.consultation_link {
+    float: right;
+    position: relative;
+    top: -100px;
+}
+
+.consultation_link img {
+    display: block;
+}
+
+.consultation_link_android_google_play {
+    margin-bottom: 30px;
+}
+
+.consultation_you_need {
+    font-size: 18px;
+    width: 670px;
+}
+
+.consultation_you_need div {
+    margin-bottom: 15px;
+}
+
+.consultation_you_need pre {
+    display: inline;
+    font-family: 'Muller';
+    font-weight: lighter;
+}
+
+.consultation_you_need_items {
+    font-weight: 500;
+    color: #e41e1e;
+    margin-right: 25px;
+}
+
+.consultation_you_need span {
+    text-decoration: underline;
+}
+
+#comments {
+    color: #313131;    
+}
+
+.comments_heading h2{
+    margin-bottom: 75px;
+    font-size: 30px
+}
+
+.comments_menu ul {
+    display: flex;
+    justify-content: center;
+}
+
+.comments_menu li {
+    margin-right: 35px;
+}
+
+
+.comments_menu a {
+    padding: 10px;   
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #313131; 
+}
+
+.comments_menu a:hover {
+    color: #e42626;
+}
+
+.comments_menu a:active {
+    border: 2px solid #e42626;
+    border-radius: 5px;
+}
+
+
+
+
+
+

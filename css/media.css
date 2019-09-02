@@ -20,3 +20,25 @@
     font-style: normal;  
 } 
 
+@font-face {
+    font-family: "Muller";
+    src: url(../fonts/Muller_bold.ttf);
+    font-weight: bold;
+    font-style: normal;  
+} 
+
+@font-face {
+    font-family: "Muller";
+    src: url(../fonts/Muller_light.otf);
+    font-weight: lighter;
+    font-style: normal;  
+} 
+
+@font-face {
+    font-family: "Muller";
+    src: url(../fonts/Muller_medium.otf);
+    font-weight: 500;
+    font-style: normal;  
+} 
+
+
