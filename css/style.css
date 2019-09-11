@@ -62,12 +62,14 @@ a.tel{
 .communication,
 .about_us_wrap,
 .provide_services_wrap,
-.advantages_wrap,
 .advantages_comparing,
 .consultation_wrap,
 .tariff_plan_compare_prices,
 .tariff_plan_wrap,
-.tariff_plan_wrap_wrapper {
+.tariff_plan_wrap_wrapper,
+.footer_wrap,
+.footer_developer,
+.service_wrap div {
     display: flex;
     justify-content: space-between;
 }
@@ -78,7 +80,7 @@ a.button,
     text-decoration: none;    
 }
 
-a.button {
+a.button, button {
     color: #fff;
     font-weight: bold;
     border: none;
@@ -89,7 +91,7 @@ a.button {
     background: #c91111;
     padding: 10px 20px;
     margin-top: 10px;
-    border-radius: 3px;
+    border-radius: 5px;
     vertical-align: middle;
 }
 
@@ -142,6 +144,7 @@ h1 span {
 #personal_attorney p {
     font-size: 24px;
     margin: 65px 0;
+    width: 530px;
 }
 
 #personal_attorney p span {
@@ -150,8 +153,8 @@ h1 span {
 
 .personal_attorney_button {
     background: #dc2020;
-    border-radius: 3px;
-    padding: 25px 50px;
+    border-radius: 5px;
+    padding: 23px 50px;
 }
 
 
@@ -161,7 +164,8 @@ h1 span {
 #advantages,
 #consultation,
 #comments,
-#tariff_plan {
+#tariff_plan,
+#feedback {
     padding: 100px 0;
 
 }
@@ -176,20 +180,24 @@ h1 span {
 }
 
 .service_wrap {
-    width: 900px;
-    margin-left: 10%;
+    /* width: 900px; */
+    /* margin-left: 10%; */
 }
 
 .service_wrap div {
-    display: flex;
-    margin-bottom: 90px;
-    width: 300px;
-    float: left;
+    /* display: flex; */
+    margin-bottom: 80px;
+    /* width: 300px; */
+    /* float: left; */
 }
 
-.service_wrap div:nth-child(3n) {
-    width: 200px;
+.service_wrap_wrapper {
+
 }
+
+/* .service_wrap div:nth-child(3n) {
+    width: 200px;
+} */
 
 .service_wrap p {
     margin-left: 25px;
@@ -200,11 +208,6 @@ h1 span {
     background: url(../img/bg_about_us.jpg) no-repeat top center;    
     color: #fff;
     text-align: center;
-}
-
-.about_us_team,
-.about_as_subscription_service {
-    width: 840px;
 }
 
 .about_us_team {
@@ -539,6 +542,109 @@ h1 span {
     background: -moz-linear-gradient(top, rgba(2, 56, 143, 1.0), rgba(0, 29, 104, 1.0));
     background: linear-gradient(to bottom, rgba(2, 56, 143, 1.0), rgba(0, 29, 104, 1.0));
 }
+
+.feedback_form {
+    padding-top: 70px;
+}
+
+.feedback_wrap {
+    display: flex;
+}
+
+.feedback_form h3 {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.feedback_form p {
+    font-size: 14px;
+    font-weight: lighter;
+    margin-bottom: 10px;
+}
+
+.feedback_form input {
+    width: 315px;
+    height: 48px;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.feedback_form input.question {
+    height: 80px;
+}
+
+.feedback_form_button button {
+    background: #cc0000;
+    font-size: 15px;
+    padding: 25px 36px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.feedback_form_button p {
+    font-size: 13px;
+    text-align: center;
+}
+
+.feedback_contact {
+    background: #fff;
+    margin-left: 80px;
+    padding-left: 100px;
+    width: 540px;
+}
+
+.feedback_contact h2 {
+    padding-top: 90px;
+    font-size: 30px;
+    margin-bottom: 70px;
+}
+
+.feedback_contact p {
+    font-size: 13px;
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+
+.tel a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.email a {
+    color: #000000;
+    font-size: 17px;
+}
+
+.operating_mode p:nth-child(2) {
+    margin-top: 15px;
+}
+
+.operating_mode p:nth-child(2),
+.operating_mode p:nth-child(3) {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+
+footer {
+    background: #0e0e0e;
+    padding: 45px 0;
+    color: #dddddd;
+}
+
+.footer_developer {
+    margin-top: 10px;
+}
+
+.footer_developer p {
+    margin-right: 30px;
+    font-size: 13px;
+}
+
 
 
 

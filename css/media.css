@@ -44,3 +44,119 @@
 
 
 
+
+/* =================== Responsive ====================*/
+
+/* 992px - 1200px */
+@media screen and (max-width: 1200px) {
+
+}
+
+/* 768px - 992px */
+@media screen and (max-width: 992px) {
+    .container {
+        width: 720px;
+    }
+
+    a.tel {
+        width: 150px;
+    }
+
+    .menu li:nth-child(2),
+    .menu li:nth-child(3),
+    .menu li:nth-child(5) {
+        display: none;
+    }
+
+    .menu ul {
+        justify-content: center;
+    }
+
+    .menu li {
+        margin-right: 30px;
+    }
+
+    a.header_top_menu_call_me {
+        font-size: 12px;
+        width: 180px;
+        text-align: center;   
+    }
+
+    .header_bottom img, .icon {
+        height: 40px;
+    }
+
+    .communication p {
+        width: 130px;
+        text-align: center;
+        position: relative;
+        bottom: 10px;
+    }
+
+    .communication .tel {
+        font-size: 17px;
+    }
+
+    .icon {
+        display: flex;
+    }
+
+    .advantages_heading {
+        font-size: 26px;
+    }
+
+    .advantages_features,
+    .advantages_advogrand,
+    .advantages_other_company {
+        display: inline-block;
+    }
+
+    .advantages_wrap_wrapper {
+        margin-left: 50px;
+    }
+
+    .our_clients {
+        margin-left: 30%;
+        margin-top: 50px;
+    }
+
+    .consultation_link img {
+        width: 150px;
+    }
+
+    .consultation_link {
+        top: -50px;
+    }
+
+    #tariff_plan h2,
+    #tariff_plan h3 {
+        text-align: center;
+    }
+
+    .tariff_plan_wrap {
+        display: block;
+    }
+
+    .tariff_plan_compare {
+        width: 720px;
+    }
+
+    .tariff_plan_prices {
+        position: static;
+    }
+}
+
+
+/* 576px - 768px */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 540px;
+    }
+}
+
+/* 320px - 576px */ 
+@media screen and (max-width: 576px) {
+    .container {
+        width: 90%;
+    }   
+}
