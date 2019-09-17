@@ -139,10 +139,52 @@
 
     .tariff_plan_compare {
         width: 720px;
+        display: flex;
+        height: auto;
+        padding: 0 10px;
+        justify-content: space-between;
+    }
+
+    .tariff_plan_compare_heading {
+        width: 150px;
+    }
+
+    .tariff_plan_characteristic {
+        padding-top: 60px;
+        width: 250px;
     }
 
     .tariff_plan_prices {
         position: static;
+        padding-top: 50px;
+    }
+
+    .tariff_plan_compare_wrap {
+        text-align: left;
+    }
+
+    .tariff_plan_prices_price {
+        font-size: 20px;
+    }
+
+    .tariff_plan_prices a {
+        width: 150px;
+        font-size: 16px;
+
+    }
+
+    #feedback {
+        padding-top: 0;
+    }
+
+    .feedback_contact {
+        margin-left: 40px;
+        padding-left: 30px;
+    }
+
+    .service_wrap div {
+        justify-content: flex-start;
+        width: 270px;
     }
 }
 
@@ -152,11 +194,270 @@
     .container {
         width: 540px;
     }
+
+    .menu {
+        width: 300px;
+    }
+
+    .menu li:nth-child(1) {
+        display: none;
+    }
+
+    .logo {
+        margin-left: 200px;
+        margin-bottom: 20px;
+    }
+
+    .communication {
+        margin-left: 0;
+        justify-content: left;
+    }
+
+    .communication p {
+        width: auto;
+        margin-right: 50px;
+        margin-top: 20px;
+    }
+
+    .communication .tel {
+        font-size: 16px;
+        padding-top: 10px;
+    }
+
+    #personal_attorney {
+        text-align: center;        
+    }
+
+    .service_wrap {
+        width: 570px;
+
+    }
+
+    h1 {
+        width: auto;
+    }
+
+    .about_us_wrap_namber {
+        font-size: 30px
+    }
+
+    #about_us {
+        padding: 80px 0;
+    }
+
+    .advantages_advogrand, .advantages_other_company {
+        width: 170px;
+    }
+
+    .advantages_wrap_wrapper {
+        margin-left: 20px;
+    }
+
+    .our_clients {
+        margin-left: 25%;
+    }
+
+    #consultation {
+        padding: 55px 0;
+    }
+
+    .consultation_link {
+        display: flex;
+        float: none;
+        position: static;        
+    }
+
+    .consultation_link img {
+        margin-left: 30px;
+        height: 50px;
+        margin-left: 40px;
+    }
+
+    #tariff_plan {
+        padding-bottom: 30px;
+    }
+
+    #tariff_plan h3 {
+        width: 550px;
+    }
+
+    .tariff_plan_compare {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .tariff_plan_compare_prices {
+        display: block;
+    }
+
+    .tariff_plan_compare_prices_choice {
+        margin-bottom: 30px;
+    }
+
+    .tariff_plan_compare_heading {
+        width: 100%;
+    }
+
+    .tariff_plan_compare_wrap {
+        text-align: center;
+    }
+
+    .tariff_plan_characteristic {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .tariff_plan_prices a {
+        width: 300px;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+
+    #feedback {
+        padding: 30px 0;
+    }
+
+    .feedback_wrap {
+        display: block;
+    }
+
+    .feedback_form, .feedback_contact {
+        width: 320px;
+        margin: 0 auto;
+    }
+
+    .feedback_contact h2 {
+        padding-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .feedback_contact {
+        margin-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .footer_wrap {
+        display: block;
+        text-align: center;
+    }
+
+    .footer_developer {
+        width: 400px;
+        margin: 10px auto;
+    }
+
 }
 
 /* 320px - 576px */ 
 @media screen and (max-width: 576px) {
     .container {
         width: 90%;
-    }   
+    }  
+    
+    .menu {
+        display: none;
+    }
+
+    .logo {
+        margin-left: 50px;
+    }
+
+    .header_bottom, .communication {
+        display: block;
+    }
+
+    .communication p {
+        width: 300px;
+    }
+
+    .communication .tel {
+        margin-left: 75px;
+    }
+
+    .icon {
+        margin-left: 95px;
+        margin-top: 10px;
+    }
+
+    h1, h1 span {
+        font-size: 24px;
+    }
+
+    #personal_attorney p {
+        font-size: 20px;
+        width: auto;
+    }
+
+    .service_heading,
+    .about_us_heading,
+    .provide_services_heading,
+    .advantages_heading {
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+
+    #service,
+    #about_us,
+    #provide_services,
+    #advantages,
+    #consultation,
+    #comments,
+    #tariff_plan,
+    #feedback {
+        padding: 50px 0;
+    }
+
+    .service_wrap div {
+        width: 240px;
+        float: none;
+        margin-left: 40px;
+    }
+
+    .about_as_subscription_service {
+        margin-bottom: 40px;
+    }
+
+    .about_us_wrap {
+        display: none;
+    }
+
+    .provide_services_wrap {
+        display: block;
+    }
+
+    .provide_services_wrap div {
+        margin-bottom: 30px;
+    }
+
+    .provide_services_wrap img {
+        margin-bottom: 20px;
+    }
+
+    .our_clients {
+        margin-left: 2%;
+    }
+
+    .our_clients_wrap a {
+        padding: 10px 40px;
+        font-size: 16px;
+    }
+
+    .consultation_heading h2 {
+        font-size: 20px;
+        width: 300px;
+    }
+
+    .consultation_link img {
+        height: 45px;
+        margin-left: 10px;
+    }
+
+    .consultation_you_need {
+        width: 300px;
+    }
+
+    #consultation p {
+        font-size: 12px;
+    }
 }

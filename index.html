@@ -29,17 +29,20 @@
         </div>
         <div class="line"></div>
         <div class="container">
-            <div class="header_bottom">
+            <div class="header_bottom_wrap">
                 <img src="img/logo.png" alt="logo" class="logo">
-                <div class="communication">
-                    <p>Ваш личный юрист всегда на связи</p>
-                    <a href="tel:+7 499 322-85-80" class="tel">+7 499 322-85-80</a>                    
-                </div>
+                <div class="header_bottom">
+                    <div class="communication">
+                        <p>Ваш личный юрист всегда на связи</p>
+                        <a href="tel:+7 499 322-85-80" class="tel">+7 499 322-85-80</a>                    
+                    </div>
 
-                <div class="icon">
-                    <img src="img/icon_android.png" alt="" class="icon_android">
-                    <img src="img/icon_apple.png" alt="">                    
-                </div>
+                    <div class="icon">
+                        <img src="img/icon_android.png" alt="" class="icon_android">
+                        <img src="img/icon_apple.png" alt="">                    
+                    </div>                
+            </div>
+
 
             </div>            
         </div>
@@ -56,50 +59,50 @@
         <div class="container">
             <h2 class="service_heading">Услуги предоставляемые сервисом Advogrand</h2>
             <div class="service_wrap">
-                <div class="service_wrap_wrapper">
-                    <div class="">
+                <!-- <div class="service_wrap_wrapper"> -->
+                    <div class="float">
                         <img src="img/icon_consultation.png" alt="consultation">
                         <p>Устные<br> консультации</p>
                     </div>
-                    <div class="">
+                    <div class="float">
                         <img src="img/icon_phone-call.png" alt="lawyer's call">
                         <p>Звонок<br> юриста</p>
                     </div>
-                    <div class="">
+                    <div class="float">
                         <img src="img/icon_file.png" alt="">
                         <p>Модели<br> договора</p>
                     </div>                    
-                </div>
+                <!-- </div> -->
 
-                <div class="service_wrap_wrapper">
-                    <div class="">
+                <!-- <div class="service_wrap_wrapper"> -->
+                    <div class="float">
                         <img src="img/icon_tactics.png" alt="">
                         <p>Устные<br> бизнес-консультации</p>
                     </div>
-                    <div class="">
+                    <div class="float">
                         <img src="img/icon_work_communication.png" alt="">
                         <p>Содействие<br> в переговорах</p>
                     </div>
-                    <div class="">
+                    <div class="float">
                         <img src="img/icon_law-book.png" alt="">
                         <p>Обзор изменений<br> в законодательстве</p>
                     </div>                    
-                </div>
+                <!-- </div> -->
 
-                <div class="service_wrap_wrapper">
-                    <div class="">
+                <!-- <div class="service_wrap_wrapper"> -->
+                    <div class="float">
                         <img src="img/icon_exam.png" alt="">
                         <p>Письменные<br> консультации</p>
                     </div>
-                    <div class="">
+                    <div class="float">
                         <img src="img/icon_lawyer.png" alt="">
                         <p>Консультации<br> в отношении третьих лиц</p>
                     </div>
-                    <div class="">
+                    <div class="float">
                         <img src="img/icon_balance.png" alt="">
                         <p>Все области<br> права</p>
                     </div>                      
-                </div>
+                <!-- </div> -->
               
             </div>
         </div>
@@ -238,14 +241,14 @@
                 </div>
                 <div>
                     <p class="consultation_you_need_items">3.</p>
-                    <pre><p>Введите Ваш номер телефона и с Вами свяжется юрист 
-         для консультации</p></pre>
+                    <p>Введите Ваш номер телефона и с Вами свяжется юрист 
+         для консультации</p>
                 </div>
             </div>
 
         </div>
     </section>
-    <section id="comments">
+    <!-- <section id="comments">
         <div class="container">
             <div class="comments_heading">
                 <h2>Отзывы</h2>
@@ -268,7 +271,7 @@
                 <h2>Партнеры Advogrand</h2>
             </div>
         </div>
-    </section>
+    </section> -->
     <section id="tariff_plan">
         <div class="container">
             <div class="tariff_plan_heading">
@@ -277,7 +280,7 @@
             <h3>Вы можете оформить карту и начать пользоваться услугами уже сейчас! 
                 Оформление займёт всего 10 минут</h3>
             <div class="tariff_plan_compare_prices">
-                <p>Выберите годовую карту, которая Вам подходит:</p>
+                <p class="tariff_plan_compare_prices_choice">Выберите годовую карту, которая Вам подходит:</p>
                 <div class="tariff_plan_compare_prices_button">
                     <a href="">Сравнить тарифы</a>
                     <a href="">тарифы</a>
@@ -285,12 +288,12 @@
             </div>
             <div class="tariff_plan_wrap">
                 <div class="tariff_plan_compare">
-                    <div class="">
-                        <p class="tariff_plan_compare_heading">Персональная карта<br><span>для Вас</span></p>
+                    <div class="tariff_plan_compare_wrap">
+                        <p class="tariff_plan_compare_heading">Персональная карта&nbsp;<span>для&nbsp;Вас</span></p>
                         <img src="img/personal_standart_card.jpg" alt="">                        
                     </div>
 
-                    <div class="">
+                    <div class="tariff_plan_characteristic">
                         <div class="tariff_plan_wrap_wrapper">
                             <p>Устные консультации</p>
                             <p class="bold">2 в месяц</p>
@@ -326,9 +329,11 @@
                     </div>
                 </div>
                 <div class="tariff_plan_compare">
-                   <p class="tariff_plan_compare_heading">Карта<br><span>для всей семьи</span></p>
-                   <img src="img/family_standart_card.jpg" alt="">
-                   <div class="">
+                    <div class="tariff_plan_compare_wrap">
+                        <p class="tariff_plan_compare_heading">Карта<br><span>для всей семьи</span></p>
+                        <img src="img/family_standart_card.jpg" alt="">                        
+                    </div>
+                   <div class="tariff_plan_characteristic">
                         <div class="tariff_plan_wrap_wrapper">
                             <p>Устные консультации</p>
                             <p class="bold">2 в месяц</p>
@@ -367,9 +372,12 @@
                     </div>
                 </div>
                 <div class="tariff_plan_compare">
-                    <p class="tariff_plan_compare_heading">Карта<br><span>для бизнеса</span></p>
-                    <img src="img/business_standart_card.jpg" alt="">
-                    <div class="">
+                    <div class="tariff_plan_compare_wrap">
+                        <p class="tariff_plan_compare_heading">Карта<br><span>для бизнеса</span></p>
+                        <img src="img/business_standart_card.jpg" alt="">                        
+                    </div>
+
+                    <div class="tariff_plan_characteristic">
                         <div class="tariff_plan_wrap_wrapper">
                             <p>Устные консультации</p>
                             <p class="bold">2 в месяц</p>
